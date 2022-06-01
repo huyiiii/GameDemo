@@ -1,0 +1,108 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+.log {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+#div_dn {
+  width: 200px;
+  height: 550px;
+
+  position: relative;
+  padding-left: 500px;
+}
+.title {
+  text-align: center;
+}
+.nav {
+  width: auto;
+  height: 40px;
+  padding-bottom: 10px;
+  background-color: cyan;
+}
+ul {
+  margin-top: 42px;
+}
+ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 150px;
+  padding-bottom: 40px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+.div-1 {
+  text-align: center;
+}
+.pic-2 {
+  width: 600px;
+  height: 600px;
+  margin-top: 40px;
+  float: left;
+}
+.menu {
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+}
+ul li :hover {
+  color: red;
+}
+li {
+  cursor: pointer;
+}
+
+/* .text1 {
+  position: absolute;
+  margin: 17px;
+  left: 300px;
+} */
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: mintcream;
+}
+.content {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+ 
+}
+.content img {
+  vertical-align: middle;
+}
+.content .text1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+h1 {
+  color: red;
+}
+.menu a {text-decoration: none;}
+.hobby {
+ margin-left: 240px;
+}
+#box {
+    position: relative;
+    left: 100px;
+
+}
+#box h1 {
+  text-align: center;
+}

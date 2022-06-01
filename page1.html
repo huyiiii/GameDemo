@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script language="javascript" src="max.js"></script>
+    <link rel="stylesheet" type="text/css" href="max.css" />
+  </head>
+  <body>
+    <div id="box">
+      <h1>Đăng kí thành viên</h1>
+      <br />
+      <div id="div_dn">
+        <label>Mã sinh viên</label><br />
+        <input type="text" /><br />
+        <label>Họ và tên</label><br />
+        <input type="text" /> <br />
+        <label>Email</label><br />
+        <input type="text" /><br />
+
+        <label>Giới tính</label>
+        <div class="right">
+          <input type="radio" value="nam" name="n1" /> Nam
+          <input type="radio" value="nữ" name="n1" /> Nữ
+        </div>
+
+        <div>
+          <label class="right">Sở thích</label><br />
+          <input type="checkbox" name="hobby" value="Đọc sách" />Đọc sách
+          <input type="checkbox" name="hobby" value="Du lịch" />Du lịch
+          <input type="checkbox" name="hobby" value="Âm nhạc" />Âm nhạc
+          <input type="checkbox" name="hobby" value="Ẩm thực" />Ẩm thực
+          <input type="checkbox" name="hobby" value="Khác" />Khác
+          
+        </div>
+        <button onclick="sigin()">Đăng kí</button>
+      </div>
+    </div>
+  </body>
+</html>

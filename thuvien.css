@@ -1,0 +1,12 @@
+#menu{
+    width: auto;
+    height: 40px;
+    background-color: gray;
+}
+#menu ul li {
+    position: relative;
+    left: 400px;
+    display: inline-block;
+    margin: 30px;
+    margin-top: -150px;
+}
